@@ -2,7 +2,7 @@ import random
 import json
 
 
-class KoreanDistrictGacha:
+class KoreaTripGacha:
     def __init__(self):
         self.data = self.load_data()
         self.city, self.dist = self.eodiro_galkkayo()
@@ -22,4 +22,4 @@ class KoreanDistrictGacha:
 
 
 if __name__ == "__main__":
-    gacha = KoreanDistrictGacha()
+    gacha = KoreaTripGacha()
